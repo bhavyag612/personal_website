@@ -4,3 +4,13 @@ body{
 h1{
     color:#1F4876;
 }
+nav{
+    background-color: lightblue;
+    text-align: center;
+}
+span{
+    position: relative;
+}
+ul{
+    list-style-position: inside;
+}
