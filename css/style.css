@@ -3,7 +3,6 @@ body{
 }
 h1{
     color:#1F4876;
-    font-family: Montserrat, sans-serif;
 }
 nav{
     background-color: lightblue;
@@ -14,4 +13,7 @@ span{
 }
 ul{
     list-style-position: inside;
+}
+.IndexHeading{
+    font-family: Montserrat,sans-serif;
 }
