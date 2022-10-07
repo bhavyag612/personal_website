@@ -6,11 +6,13 @@ h1{
 }
 nav{
     background-color: lightblue;
-    text-align: center;
 }
 span{
     position: relative;
 }
 ul{
     list-style-position: inside;
+}
+.listAlign{
+    text-align: left;
 }
