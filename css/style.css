@@ -11,8 +11,15 @@ nav{
 span{
     position: relative;
 }
-ul{
+.NavList{
     list-style-position: inside;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavList li{
+    padding: 10px;
 }
 .IndexHeading{
     font-family: 'Montserrat', sans-serif;
