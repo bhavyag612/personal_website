@@ -28,3 +28,16 @@ footer{
     background-color: #A6CAD4;
     text-align: center;
 }
+.IndexSection{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr;
+}
+.IndexPar1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.IndexSection img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
