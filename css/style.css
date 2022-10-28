@@ -1,11 +1,11 @@
 body{
-    background-color: #D5E5F7;
+    background-color: #EDDDD0;
 }
 h1{
-    color:#1F4876;
+    color:#334259;
 }
 nav{
-    background-color: lightblue;
+    background-color: #A6CAD4;
     text-align: center;
 }
 span{
@@ -15,5 +15,5 @@ ul{
     list-style-position: inside;
 }
 .IndexHeading{
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
