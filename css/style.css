@@ -15,11 +15,12 @@ span{
     list-style-position: inside;
     list-style-type: none;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .NavList li{
-    padding: 10px;
+    padding: 5px;
 }
 .IndexHeading{
     font-family: 'Montserrat', sans-serif;
@@ -54,5 +55,8 @@ footer{
 
 .course-des{
     border-bottom: 2px solid black;
+}
+.course li{
+    padding-top: 10px;
 }
 
