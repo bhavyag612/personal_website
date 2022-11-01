@@ -60,3 +60,22 @@ footer{
     padding-top: 10px;
 }
 
+@media all and (min-width:600px){
+    .NavList{
+        flex-direction:row;
+    }
+    .course-grid{
+        display:grid;
+        grid-template-rows: 20px 1fr 1fr;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 20px;
+    }
+    p+p{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    a+p{
+        grid-column:1/2;
+        grid-row: 3/4;
+    }
+}
