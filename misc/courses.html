@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <title>Courses</title>
         <link rel="stylesheet" href="../css/style.css">
@@ -7,7 +7,7 @@
     <body>
       <header>
         <nav>
-          <h1>Welcome to my website</h1>
+          <h1>My courses</h1>
           <ul class="NavList">
             <li><a href="../index.html" title="Go to about me">about me</a></li>
             <li><a href="school.html" title="Go to school">school</a></li>
@@ -15,25 +15,32 @@
         </nav>
       </header>
       <main>
-        <article>
-          <h2>My courses</h2>
-          <section>
-            <p>Here are some of my courses:</p>
-          </section>
-          <section>
-            <ul>
+          <div>
+            <ul class="CourseUL">
+              <div class="course-des">
               <li>
                 <a
                   href="https://www.bcit.ca/outlines/20223048467/"
-                  title="Course outline"
-                  >Fundamental Web Technologies</a
+                  title="Course outline- Web tech"
+                  >ACIT 1620 - Fundamental Web Technologies</a
                 >
               </li>
-              <li>Database Systems</li>
-              <li>Scripting for IT</li>
+              <p>Winter 2021</p>
+              <p>This course introduces fundamental techniques and principles for designing and developing effective website</p>
+            </div>
+            <div class="course-des">
+              <li><a href="https://www.bcit.ca/outlines/20221089206/" title="Course outline- Database">ACIT 1630 -  Database Systems</a></li>
+              <p>Winter 2021</p>
+              <p>This course relational and NoSQL database technologies.</p>
+            </div>
+            <div class="course-des">
+              <li><a href="https://www.bcit.ca/outlines/20223048460/" title="Course outline- Database">ACIT 1430 - Introduction to System Administration</a></li>
+              <p>Winter 2021</p>
+              <p>This course introduces students to configuration, maintainance, and administration of a Windows laptop computer.</p>
+            </div>
             </ul>
-          </section>
-        </article>
+          </div>
+
       </main>
       <footer>
         <p>Copyright data</p>
