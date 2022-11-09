@@ -31,6 +31,4 @@ if (count=== 0){
     obj.name= null;
     courselist.push(obj);
     console.log("Success!")
-}
-
-console.log(courselist)
+}image.png
